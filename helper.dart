@@ -1,5 +1,5 @@
 import 'dart:io';
 
-String scriptPath() {
-  return File(Platform.script.path).parent.path.substring(1);
+String inputPath() {
+  return File(Platform.script.path).parent.path.substring(1) + '/input.txt';
 }

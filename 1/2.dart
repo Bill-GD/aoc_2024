@@ -3,7 +3,7 @@ import 'dart:io';
 import '../helper.dart';
 
 void main() {
-  final inputFile = File('${scriptPath()}/input.txt');
+  final inputFile = File(inputPath());
   final List<int> left = [], right = [];
 
   for (final line in inputFile.readAsLinesSync()) {
